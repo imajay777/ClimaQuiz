@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClimaQuiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 style = "color: white";>ClimaQuiz</h1>
+        </header>
+        <div class="game">
+            <div class="player" id="player1">
+                <h2>Player 1</h2>
+                <p>Score: <span id="score1">0</span></p>
+            </div>
+            <div class="player" id="player2">
+                <h2>Player 2</h2>
+                <p>Score: <span id="score2">0</span></p>
+            </div>
+            <div class="question">
+                <h3 id="questionText">Question for Player </h3>
+                <ul id="options">
+                    <li><button id="option1"></button></li>
+                    <li><button id="option2"></button></li>
+                    <li><button id="option3"></button></li>
+                </ul>
+            </div>
+            <button id="nextButton" style="display: none;">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

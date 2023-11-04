@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://uk.leonardo.com/o/adaptive-media/image/16058969/h_1024/Sustainability-green-icons-banner_1440760.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    #background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ 
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.player {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#player1 {
+    background-color: #80c7ab;
+}
+
+.question {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #80c7ab;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#nextButton {
+    background-color: #80c7ab;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+button:hover, #nextButton:hover {
+    background-color: #5f9c83;
+}
